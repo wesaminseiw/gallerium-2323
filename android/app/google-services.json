@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "489456063105",
+    "project_id": "gallerium-2323",
+    "storage_bucket": "gallerium-2323.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:489456063105:android:8639252bcf44c49ee5b380",
+        "android_client_info": {
+          "package_name": "com.example.gallerium"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAZj9hCPTUeR_jG0RWNvG1qwHU_h39eu_M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
