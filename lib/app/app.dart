@@ -1,6 +1,7 @@
 import 'dart:developer';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
+import 'package:gallerium/app/utils/extensions.dart';
 import 'package:gallerium/logic/services/timer_service.dart';
 import 'package:gallerium/presentation/screens/home_page.dart';
 import 'package:gallerium/presentation/screens/login_screen.dart';
@@ -49,12 +50,13 @@ class _MyAppState extends State<MyApp> {
         colorScheme: ColorScheme(
           brightness: Brightness.light,
           primary: primaryColor,
-          onPrimary: teritaryColor,
+          onPrimary: context.colorScheme.tertiary,
           secondary: secondaryColor,
           onSecondary: quaternaryColor,
+          tertiary: tertiaryColor,
           error: Colors.red,
           onError: quaternaryColor,
-          surface: teritaryColor,
+          surface: context.colorScheme.tertiary,
           onSurface: primaryColor,
         ),
       ),

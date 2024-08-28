@@ -3,6 +3,7 @@ import 'dart:io';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_storage/firebase_storage.dart';
 import 'package:flutter/material.dart';
+import 'package:gallerium/app/utils/extensions.dart';
 import 'package:gallerium/logic/services/navigation_service.dart';
 import 'package:gallerium/presentation/screens/settings_screen.dart';
 import 'package:gallerium/presentation/styles/colors.dart';
@@ -66,6 +67,7 @@ class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: context.colorScheme.tertiary,
       appBar: AppBar(
         title: RichText(
           maxLines: 1,
@@ -94,7 +96,7 @@ class _HomePageState extends State<HomePage> {
             onTap: () {
               push(
                 context,
-                const SettingsScreen(),
+                SettingsScreen(),
               );
             },
             child: SizedBox(
