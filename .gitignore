@@ -2,6 +2,7 @@
 .flutter-plugins
 .flutter-plugins-deps
 .packages
+.developer_notes
 build/
 ios/Flutter/Flutter.framework
 ios/Flutter/Flutter.podspec
